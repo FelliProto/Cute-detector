@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CuteMessageApp", "CuteMessageApp\CuteMessageApp.csproj", "{A21DABD2-0A93-4ACD-8CEA-7B4D5B76E272}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A21DABD2-0A93-4ACD-8CEA-7B4D5B76E272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A21DABD2-0A93-4ACD-8CEA-7B4D5B76E272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A21DABD2-0A93-4ACD-8CEA-7B4D5B76E272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A21DABD2-0A93-4ACD-8CEA-7B4D5B76E272}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE84D14B-EB50-46DC-BF54-62EAB8B2A6BC}
+	EndGlobalSection
+EndGlobal
