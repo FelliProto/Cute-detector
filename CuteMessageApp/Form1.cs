@@ -31,12 +31,12 @@ namespace CuteMessageApp
             { //im bored dont ask
                 string[] messages = { "æ", "Uh oh, something went wrong! Please Report it to Felli", "æ is good but bah is better max is gonna be pissed seeing this", "Unexpected error occurred. Report it to Felli", "bah is kinda better then æ sorry", "idk what to put here" };
 
-                int index = random.Next(messages.Length); // get a random index for the array
-                MessageBox.Show(this, messages[index], "Unable to fetch Result", MessageBoxButtons.OK, MessageBoxIcon.Error); // show a random message box
+                int index = random.Next(messages.Length); 
+                MessageBox.Show(this, messages[index], "Unable to fetch Result", MessageBoxButtons.OK, MessageBoxIcon.Error); 
             }
             else if (name == "aveyzan")
             {
-                MessageBox.Show(this, "Why are you even trying? He isn't cute.", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information); // additional message box when the name is "aveyzan"
+                MessageBox.Show(this, "Why are you even trying? He isn't cute.", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information); 
             }
             else if (name == "felli")
             {
@@ -61,7 +61,7 @@ namespace CuteMessageApp
 
             else if (name == "max")
             {
-                MessageBox.Show(this, "Stop! He isn't cute.", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information); // additional message box when the name is "max"
+                MessageBox.Show(this, "Stop! He isn't cute.", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information); 
             }
             else if (name == "dizaster" || name == "dizasterman" || name == "diz")
             {
@@ -70,15 +70,15 @@ namespace CuteMessageApp
             }
             else if (name == "dave1285")
             {
-                MessageBox.Show(this, "dave1285 is cute!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information); // additional message box when the name is "dave1285"
+                MessageBox.Show(this, "dave1285 is cute!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information); 
             }
             else if (name == "vadaladix" || name == "vad")
             {
-                MessageBox.Show(this, "Of course he's cute, no need to detect it. He is cute 100%!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information); // additional message box when the name is "vadaladix"
+                MessageBox.Show(this, "Of course he's cute, no need to detect it. He is cute 100%!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information); 
             }
             else if (name == "eclipse")
             {
-                MessageBox.Show(this, "Eclipse is cute!! (Help I'm being forced to write this into the code)", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information); // additional message box when the name is "eclipse"
+                MessageBox.Show(this, "Eclipse is cute!! (Help I'm being forced to write this into the code)", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information); 
             }
             else if (name == "macaroni" || name == "marco91107r5") //macroni real
             {
