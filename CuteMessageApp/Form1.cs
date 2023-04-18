@@ -1,5 +1,9 @@
+using Microsoft.VisualBasic.ApplicationServices;
 using System;
+using System.Diagnostics;
 using System.Windows.Forms;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Xml.Linq;
 
 namespace CuteMessageApp
 {
@@ -23,9 +27,9 @@ namespace CuteMessageApp
         {
             string name = textBox1.Text.ToLower(); //to many people on this list
 
-            if (name.Contains("Ã¦"))
+            if (name.Contains("æ"))
             { //im bored dont ask
-                string[] messages = { "Ã¦", "Uh oh, something went wrong! Please Report it to Felli", "Ã¦ is good but bah is better max is gonna be pissed seeing this", "Unexpected error occurred. Report it to Felli", "bah is kinda better then Ã¦ sorry", "idk what to put here" };
+                string[] messages = { "æ", "Uh oh, something went wrong! Please Report it to Felli", "æ is good but bah is better max is gonna be pissed seeing this", "Unexpected error occurred. Report it to Felli", "bah is kinda better then æ sorry", "idk what to put here" };
 
                 int index = random.Next(messages.Length); // get a random index for the array
                 MessageBox.Show(this, messages[index], "Unable to fetch Result", MessageBoxButtons.OK, MessageBoxIcon.Error); // show a random message box
@@ -39,20 +43,20 @@ namespace CuteMessageApp
                 int retryCount = 0;
 
                 while (retryCount < 5)
-                    {
+                {
                     DialogResult result = MessageBox.Show(this, "I'm not cute. Why are you saying I'm cute?", "Result", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
 
-                        if (result == DialogResult.Retry)
-                        {
+                    if (result == DialogResult.Retry)
+                    {
                         retryCount++;
-                        }
-                        else
-                        {
+                    }
+                    else
+                    {
                         return;
                     }
-                        }
+                }
 
-                MessageBox.Show(this, "Why are you even trying? I'm isn't cute!", "Why?", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, "Why are you even trying? I'm not cute!", "Why?", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             else if (name == "max")
@@ -84,7 +88,7 @@ namespace CuteMessageApp
             else if (name == "pãothesequal" || name == "pao")
             {
                 MessageBox.Show(this, "Very cute!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information); // additional message box when the name is "pãothesequal"
-               
+
             }
             else
             {
