@@ -27,9 +27,9 @@ namespace CuteMessageApp
         {
             string name = textBox1.Text.ToLower(); //to many people on this list
 
-            if (name.Contains("Ê"))
+            if (name.Contains("√¶"))
             { //im bored dont ask
-                string[] messages = { "Ê", "Uh oh, something went wrong! Please Report it to Felli", "Ê is good but bah is better max is gonna be pissed seeing this", "Unexpected error occurred. Report it to Felli", "bah is kinda better then Ê sorry", "idk what to put here" };
+                string[] messages = { "√¶", "Uh oh, something went wrong! Please Report it to Felli", "√¶ is the best", "Unexpected error occurred. Report it to Felli", "√¶ is kinda better then bah sorry", "idk what to put here" };
 
                 int index = random.Next(messages.Length); // get a random index for the array
                 MessageBox.Show(this, messages[index], "Unable to fetch Result", MessageBoxButtons.OK, MessageBoxIcon.Error); // show a random message box
@@ -61,7 +61,7 @@ namespace CuteMessageApp
 
             else if (name == "max")
             {
-                MessageBox.Show(this, "Stop! He isn't cute.", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information); // additional message box when the name is "max"
+                MessageBox.Show(this, "Stop! They arent't cute.", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information); // additional message box when the name is "max"
             }
             else if (name == "dizaster" || name == "dizasterman" || name == "diz")
             {
@@ -85,9 +85,9 @@ namespace CuteMessageApp
                 MessageBox.Show(this, "He's very cute!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 MessageBox.Show(this, "You Felli fell of the train", "Macaroni quotes", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            else if (name == "p„othesequal" || name == "pao")
+            else if (name == "p√£othesequal" || name == "pao")
             {
-                MessageBox.Show(this, "Very cute!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information); // additional message box when the name is "p„othesequal"
+                MessageBox.Show(this, "Very cute!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information); // additional message box when the name is "p√£othesequal"
 
             }
             else
