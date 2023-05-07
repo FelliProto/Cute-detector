@@ -86,11 +86,6 @@ namespace CuteMessageApp
                 MessageBox.Show(this, "He's very cute!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 MessageBox.Show(this, "You Felli fell of the train", "Macaroni quotes", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            else if (name == "pãothesequal" || name == "pao")
-            {
-                MessageBox.Show(this, "Very cute!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information); // additional message box when the name is "pãothesequal"
-
-            }
             else
             {
 
