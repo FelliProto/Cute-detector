@@ -29,7 +29,7 @@ namespace CuteMessageApp
 
             if (name.Contains("æ"))
             { //im bored dont ask
-                string[] messages = { "æ", "Uh oh, something went wrong! Please Report it to Felli", "bah is good but æ is better", "Unexpected error occurred. Report it to Felli", "æ is kinda better then bah sorry", "idk what to put here" };
+                string[] messages = { "æ", "bah is good but æ is better", "Unexpected error occurred. Report it to Felli", "æ is kinda better then bah sorry", "idk what to put here" };
 
                 int index = random.Next(messages.Length); 
                 MessageBox.Show(this, messages[index], "Unable to fetch Result", MessageBoxButtons.OK, MessageBoxIcon.Error); 
@@ -66,8 +66,7 @@ namespace CuteMessageApp
             }
             else if (name == "dizaster" || name == "dizasterman" || name == "diz")
             {
-                MessageBox.Show(this, "Of course my love is cute!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                MessageBox.Show(this, "he's a boykisser tho makes him even more cute", "Info", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show(this, "no he isnt.", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else if (name == "dave1285")
             {
