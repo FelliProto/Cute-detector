@@ -63,7 +63,7 @@
             richTextBox1.ScrollBars = RichTextBoxScrollBars.None;
             richTextBox1.Size = new Size(112, 18);
             richTextBox1.TabIndex = 2;
-            richTextBox1.Text = "made by Felli#2162";
+            richTextBox1.Text = "made by felliproto";
             // 
             // Form1
             // 
