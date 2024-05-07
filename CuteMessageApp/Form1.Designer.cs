@@ -69,7 +69,7 @@
             // button2
             // 
             button2.Cursor = Cursors.Hand;
-            button2.Location = new Point(20, 3);
+            button2.Location = new Point(1, -1);
             button2.Name = "button2";
             button2.Size = new Size(75, 23);
             button2.TabIndex = 3;
