@@ -29,7 +29,7 @@ namespace CuteMessageApp
 
             if (name == "aveyzan")
             {
-                MessageBox.Show(this, "Why are you even trying? He isn't cute.", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(this, "He is very very cute.", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else if (name == "felli")
             {
