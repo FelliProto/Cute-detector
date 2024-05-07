@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Windows.Forms;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Xml.Linq;
+using static System.Windows.Forms.DataFormats;
 
 namespace CuteMessageApp
 {
@@ -84,6 +85,12 @@ namespace CuteMessageApp
                     MessageBox.Show(this, message + "!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var form2 = new about();
+            form2.Show();
         }
     }
 }

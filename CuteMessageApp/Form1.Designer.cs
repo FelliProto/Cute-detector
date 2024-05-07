@@ -32,6 +32,7 @@
             button1 = new Button();
             textBox1 = new TextBox();
             richTextBox1 = new RichTextBox();
+            button2 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -65,11 +66,23 @@
             richTextBox1.TabIndex = 2;
             richTextBox1.Text = "made by felliproto";
             // 
+            // button2
+            // 
+            button2.Cursor = Cursors.Hand;
+            button2.Location = new Point(20, 3);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 23);
+            button2.TabIndex = 3;
+            button2.Text = "About";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(318, 137);
+            Controls.Add(button2);
             Controls.Add(richTextBox1);
             Controls.Add(textBox1);
             Controls.Add(button1);
@@ -87,5 +100,6 @@
         private Button button1;
         private TextBox textBox1;
         private RichTextBox richTextBox1;
+        private Button button2;
     }
 }
