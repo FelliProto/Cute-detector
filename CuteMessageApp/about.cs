@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net.Http;
+using System.Diagnostics;
 
 namespace CuteMessageApp
 {
@@ -92,6 +93,25 @@ namespace CuteMessageApp
         private void label3_Click(object sender, EventArgs e) //last updated thingy will be made dynimaclly eventually
         {
             //label3.Text = $"Last updated: ";
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            string websiteUrl = "https://felliproto.com";
+
+            try
+            {
+                ProcessStartInfo psi = new ProcessStartInfo
+                {
+                    FileName = websiteUrl,
+                    UseShellExecute = true
+                };
+                Process.Start(psi);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"didn work cause: {ex.Message}");
+            }
         }
     }
 }
