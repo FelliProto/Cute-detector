@@ -5,6 +5,8 @@ using System.Windows.Forms;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Xml.Linq;
 using static System.Windows.Forms.DataFormats;
+using System.Numerics;
+using System.IO;
 
 namespace CuteMessageApp
 {
@@ -30,7 +32,7 @@ namespace CuteMessageApp
 
             if (name == "aveyzan")
             {
-                MessageBox.Show(this, "He is very very cute.", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(this, "He is very very cute!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else if (name == "felli")
             {
@@ -65,7 +67,7 @@ namespace CuteMessageApp
             {
                 MessageBox.Show(this, "Eclipse is cute!!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            else if (name == "macaroni" || name == "marco91107r5") //macroni real
+            else if (name == "macaroni" || name == "marco91107r5" || name == "&") //macroni real
             {
                 MessageBox.Show(this, "He's very cute!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 MessageBox.Show(this, "Your Felli fell of the train", "Macaroni quotes", MessageBoxButtons.OK, MessageBoxIcon.Error);

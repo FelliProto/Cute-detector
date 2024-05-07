@@ -40,7 +40,7 @@
             // 
             pictureBox1.Cursor = Cursors.Hand;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.InitialImage = (Image)resources.GetObject("pictureBox1.InitialImage");
+            pictureBox1.InitialImage = null;
             pictureBox1.Location = new Point(12, 12);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(118, 124);
@@ -64,9 +64,9 @@
             label2.AutoSize = true;
             label2.Location = new Point(141, 86);
             label2.Name = "label2";
-            label2.Size = new Size(165, 15);
+            label2.Size = new Size(181, 15);
             label2.TabIndex = 2;
-            label2.Text = "Click me for random message";
+            label2.Text = "Click me for an random message";
             label2.Click += label2_Click;
             // 
             // label3
