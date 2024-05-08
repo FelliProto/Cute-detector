@@ -76,7 +76,7 @@
             label3.Name = "label3";
             label3.Size = new Size(123, 15);
             label3.TabIndex = 3;
-            label3.Text = "Last updated: 07.05.24";
+            label3.Text = "Last updated: 08.05.24";
             label3.Click += label3_Click;
             // 
             // about
