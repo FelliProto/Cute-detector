@@ -1,3 +1,6 @@
+Get new releases at:
+https://felliproto.com
+
 Cute detector
 A detector based on rng that detects if people are cute
 feel free to make pull requests lol
