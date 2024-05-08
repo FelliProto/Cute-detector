@@ -61,7 +61,7 @@ namespace CuteMessageApp
             }
             else if (name == "vadaladix" || name == "vad")
             {
-                MessageBox.Show(this, "Of course he's cute, no need to detect it. He is cute 100%!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(this, "Yep he is very very cute!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else if (name == "eclipse")
             {
