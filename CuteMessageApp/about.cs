@@ -113,5 +113,19 @@ namespace CuteMessageApp
                 MessageBox.Show($"didn work cause: {ex.Message}");
             }
         }
+        //updater yea that exists now
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string updaterPath = @"C:\Program Files (x86)\FelliProto\Cute Detector\updater.exe";
+
+                Process.Start(updaterPath);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("An error occurred while trying to start the updater: " + ex.Message);
+            }
+        }
     }
 }

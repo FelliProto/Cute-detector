@@ -33,6 +33,7 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -79,11 +80,22 @@
             label3.Text = "Last updated: 10.05.24";
             label3.Click += label3_Click;
             // 
+            // button1
+            // 
+            button1.Location = new Point(270, 51);
+            button1.Name = "button1";
+            button1.Size = new Size(123, 27);
+            button1.TabIndex = 4;
+            button1.Text = "Check for Updates";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // about
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(607, 148);
+            Controls.Add(button1);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -105,5 +117,6 @@
         private Label label1;
         private Label label2;
         private Label label3;
+        private Button button1;
     }
 }
