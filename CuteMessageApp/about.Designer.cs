@@ -82,11 +82,12 @@
             // 
             // button1
             // 
+            button1.Enabled = false;
             button1.Location = new Point(270, 51);
             button1.Name = "button1";
-            button1.Size = new Size(123, 27);
+            button1.Size = new Size(150, 27);
             button1.TabIndex = 4;
-            button1.Text = "Check for Updates";
+            button1.Text = "Check for Updates (WIP)";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
