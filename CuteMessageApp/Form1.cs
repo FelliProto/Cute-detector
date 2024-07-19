@@ -34,7 +34,7 @@ namespace CuteMessageApp
             {
                 MessageBox.Show(this, "He is very very cute!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            else if (name == "felli")
+            else if (name == "felli" || name== "felliproto")
             {
                 int retryCount = 0;
 
