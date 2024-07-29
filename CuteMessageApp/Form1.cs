@@ -67,11 +67,6 @@ namespace CuteMessageApp
             {
                 MessageBox.Show(this, "Eclipse is cute!!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            else if (name == "macaroni" || name == "marco91107r5" || name == "&") //macroni real
-            {
-                MessageBox.Show(this, "He's very cute!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                MessageBox.Show(this, "Your Felli fell of the train", "Macaroni quotes", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
             else if (name == "charlie" || name == "charlieslaw") //yea 
             {
                 int randomNumber = random.Next(1, 101);
@@ -108,3 +103,6 @@ namespace CuteMessageApp
         }
     }
 }
+
+
+//i miss the times i made this life was good people treated me well and all now everything is just crumbling i get treated like absolute shit over small mistakes i do i consntatly over think due to the past stuff that happened to me someone seems to hate me for it im paying so much for a therapist a month nothing helps i try to change i get blocked by someone who is really important to me how am i supposed to change like this? when everything that i fear happens to me i want to change im trying to change- tho is there even any point anymore im not sure he probably never wants to talk to me again. from the bottom of my heart im sorry for everoyne i dissapointed i dont expect forgiveness.
