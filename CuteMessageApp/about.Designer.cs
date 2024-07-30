@@ -34,8 +34,6 @@
             label2 = new Label();
             label3 = new Label();
             button1 = new Button();
-            label4 = new Label();
-            label5 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -57,9 +55,9 @@
             label1.AutoSize = true;
             label1.Location = new Point(136, 31);
             label1.Name = "label1";
-            label1.Size = new Size(224, 15);
+            label1.Size = new Size(219, 15);
             label1.TabIndex = 1;
-            label1.Text = "Cute detector made by felliproto? in 2023";
+            label1.Text = "Cute detector made by felliproto in 2023";
             label1.Click += label1_Click;
             // 
             // label2
@@ -79,7 +77,7 @@
             label3.Name = "label3";
             label3.Size = new Size(123, 15);
             label3.TabIndex = 3;
-            label3.Text = "Last updated: 29.07.24";
+            label3.Text = "Last updated: 18.05.24";
             label3.Click += label3_Click;
             // 
             // button1
@@ -93,33 +91,11 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 5.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(457, 124);
-            label4.Name = "label4";
-            label4.Size = new Size(37, 10);
-            label4.TabIndex = 5;
-            label4.Text = "who am i?";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 5.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.Location = new Point(500, 126);
-            label5.Name = "label5";
-            label5.Size = new Size(85, 10);
-            label5.TabIndex = 6;
-            label5.Text = "am i even felli anymore??";
-            // 
             // about
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(607, 148);
-            Controls.Add(label5);
-            Controls.Add(label4);
             Controls.Add(button1);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -143,7 +119,5 @@
         private Label label2;
         private Label label3;
         private Button button1;
-        private Label label4;
-        private Label label5;
     }
 }
