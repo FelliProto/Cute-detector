@@ -59,7 +59,7 @@ namespace CuteMessageApp
             {
                 MessageBox.Show(this, "dave1285 is cute!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            else if (name == "vadaladix" || name == "vad")
+            else if (name == "aqua" || name == "aquaticproto" || name == "banaqua")
             {
                 MessageBox.Show(this, "Yep he is very very cute!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
