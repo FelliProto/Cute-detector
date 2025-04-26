@@ -59,18 +59,7 @@ namespace CuteMessageApp
             {
                 MessageBox.Show(this, "dave1285 is cute!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            else if (name == "aqua" || name == "aquaticproto" || name == "banaqua")
-            {
-                int randomNumber = random.Next(1, 101);
-                string bttm = name + " is very very very cute!";
-
-                if (randomNumber <= 5) // 5% chance 
-                {
-                    bttm = name + " is very very very cute and also a bottom"; 
-                }
-
-                MessageBox.Show(this, bttm + "!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
+            
             else if (name == "eclipse")
             {
                 MessageBox.Show(this, "Eclipse is cute!!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
