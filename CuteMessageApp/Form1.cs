@@ -69,32 +69,7 @@ namespace CuteMessageApp
                 MessageBox.Show(this, "He's very cute!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 MessageBox.Show(this, "Your Felli fell of the train", "Macaroni quotes", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            else if (name == "charlie" || name == "charlieslaw") //yea 
-            {
-                int randomNumber = random.Next(1, 101);
-                string knecht = name + " is cute !";
 
-                if (randomNumber <= 5) // 5% chance 
-                {
-                    knecht = name + " is british";
-                }
-
-                MessageBox.Show(this, knecht + "!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else
-            {
-
-                {
-                    int randomNumber = random.Next(1, 101);
-                    string message = name + " is not cute!";
-
-                    if (randomNumber <= 60) // 60% chance 
-                    {
-                        message = name + " is cute!";
-                    }
-
-                    MessageBox.Show(this, message + "!", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
             }
         }
 
